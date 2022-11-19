@@ -1,0 +1,38 @@
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Nov 20 00:09 2022
+VCD+ Writer L-2016.06_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+The file '/home/hyx/verilog/add/inter.vpd' was opened successfully.
+dve> run
+$finish called from file "test.v", line 23.
+$finish at simulation time                 2805
+Simulation complete, time is 2805 ns.
+dve> run
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2805 ns
+CPU Time:      0.130 seconds;       Data structure size:   0.0Mb
+Sun Nov 20 00:09:57 2022
+dve> run all
+Error: run all
+Error: [UCLI-018] VCS Runtime Error
+The simulation is finished successfully. 'run' command is not acceptable
+Use 'restart' command to restart tool and execute the command again. Please contact a Synopsys representative if the problem persists.
+dve> run 1us
+Error: run 1us
+Error: [UCLI-018] VCS Runtime Error
+The simulation is finished successfully. 'run' command is not acceptable
+Use 'restart' command to restart tool and execute the command again. Please contact a Synopsys representative if the problem persists.
+dve> restart
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Nov 20 00:11 2022
+VCD+ Writer L-2016.06_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+The file '/home/hyx/verilog/add/inter.vpd' was opened successfully.
+dve> run
+$finish called from file "test.v", line 23.
+$finish at simulation time                 2805
+Simulation complete, time is 2805 ns.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2805 ns
+CPU Time:      0.040 seconds;       Data structure size:   0.0Mb
+Sun Nov 20 00:13:00 2022

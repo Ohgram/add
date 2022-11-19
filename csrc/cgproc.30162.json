@@ -1,0 +1,19 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        }
+    },
+    "reusePaths": {
+        "x9Hvb_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "CompUnits": {},
+    "ObjArchives": []
+}
