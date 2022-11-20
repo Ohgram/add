@@ -12,7 +12,7 @@ simulate:
 	./simv +ntb_random_seed=$(SEED) -l sim.log
 
 run_dve:
-	dve -vpd inter.vpd &
+	dve -vpd vcdplus.vpd &
 
 clean:
 	rm -rf *.log csrc simv* *.key *.vpd DVEfiles coverage *.vdb

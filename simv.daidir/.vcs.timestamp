@@ -1,0 +1,136 @@
+0 
+37
++itf+/home/hyx/eda/vcs2016/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc-4.8
+-Mcfl= -pipe -fPIC -O -I/home/hyx/eda/vcs2016/include
+-Mcplusplus=g++-4.8
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -Wl,--no-as-needed -rdynamic
+-Mobjects= /home/hyx/eda/vcs2016/linux64/lib/libvirsim.so /home/hyx/eda/vcs2016/linux64/lib/liberrorinf.so /home/hyx/eda/vcs2016/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/home/hyx/eda/vcs2016/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/hyx/eda/verdi2016/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/hyx/eda/vcs2016/include
+-P
+-Xpiyushb1=0x80
+-debug_acc+fsdb
+-debug_access+all+dmptf+bc
+-debug_region=cell+lib
+-fsdb
+-fsdb
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+./add.v
+./test.v
+/home/hyx/eda/vcs2016/linux64/bin/vcs1
+/home/hyx/eda/verdi2016/share/PLI/VCS/LINUX64/verdi.tab
+com.log
+84
+sysc_uni_pwd=/home/hyx/verilog/add
+no_proxy=localhost,127.0.0.0/8,::1
+https_proxy=http://127.0.0.1:8888/
+http_proxy=http://127.0.0.1:8888/
+ftp_proxy=http://127.0.0.1:8888/
+all_proxy=socks://127.0.0.1:1088/
+XMODIFIERS=@im=fcitx
+XDG_SESSION_TYPE=x11
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+VTE_VERSION=6003
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/hyx/eda/verdi2016
+VCS_TARGET_ARCH=linux64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=com.log
+VCS_HOME=/home/hyx/eda/vcs2016
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+USERNAME=hyx
+UNAME=/bin/uname
+TOOL_HOME=/home/hyx/eda/vcs2016/linux64
+SYNOPSYS=/home/hyx/eda/dc2016
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=6639
+SESSION_MANAGER=local/hyx-MS-linux:@/tmp/.ICE-unix/6680,unix/hyx-MS-linux:/tmp/.ICE-unix/6680
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=fcitx
+QT_ACCESSIBILITY=1
+QT4_IM_MODULE=fcitx
+OVA_UUM=0
+NO_PROXY=localhost,127.0.0.0/8,::1
+NOVAS_HOME=/home/hyx/eda/verdi2016
+MFLAGS=
+MANAGERPID=6461
+MAKE_TERMOUT=/dev/pts/2
+MAKE_TERMERR=/dev/pts/2
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+JOURNAL_STREAM=8:49950
+INVOCATION_ID=36382d9cc72d4ebf8c5c11e36a0532ec
+IM_CONFIG_PHASE=1
+HTTP_PROXY=http://127.0.0.1:8888/
+HTTPS_PROXY=http://127.0.0.1:8888/
+GTK_MODULES=gail:atk-bridge
+GTK_IM_MODULE=fcitx
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.108
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/19463a87_aaca_4334_995c_a7a8206f965e
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDMSESSION=ubuntu
+FTP_PROXY=http://127.0.0.1:8888/
+DESKTOP_SESSION=ubuntu
+DC_HOME=/home/hyx/eda/dc2016
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=2768207ac23a06d7aa9eb24d637996ea
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=2768207ac23a06d7aa9eb24d637996ea
+COLORTERM=truecolor
+CLUTTER_IM_MODULE=fcitx
+ALL_PROXY=socks://127.0.0.1:1088/
+0
+4
+1668693796 ./add.v
+1668915018 ./test.v
+1464145466 /home/hyx/eda/vcs2016/linux64/lib/vcsdp.tab
+1468145700 /home/hyx/eda/verdi2016/share/PLI/VCS/LINUX64/verdi.tab
+4
+0 
+1464147802 /home/hyx/eda/vcs2016/linux64/lib/libvirsim.so
+1464147272 /home/hyx/eda/vcs2016/linux64/lib/liberrorinf.so
+1464147248 /home/hyx/eda/vcs2016/linux64/lib/libsnpsmalloc.so
+1668915030 simv.daidir

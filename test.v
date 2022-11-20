@@ -29,6 +29,10 @@ initial begin
     $fsdbDumpfile("./rtl.fsdb");
     $fsdbDumpvars("+all");
 end
+initial begin
+  $vcdpluson;
+end
+
 add add_inst(
     .A(A),
     .B(B),
