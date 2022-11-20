@@ -15,4 +15,4 @@ run_dve:
 	dve -vpd vcdplus.vpd &
 
 clean:
-	rm -rf *.log csrc simv* *.key *.vpd DVEfiles coverage *.vdb
+	rm -rf *.log csrc simv* *.key *.vpd DVEfiles coverage *.vdb verdi* *.out *.conf *.fsdb

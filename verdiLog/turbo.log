@@ -1,3 +1,0 @@
-Command Line: /home/hyx/eda/verdi2016/platform/LINUXAMD64/bin/Novas -i -simflow -simBin ./simv -simOpt  
-uname(Linux hyx-MS-linux 5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022 x86_64)
-au time 0.666239 0.509683 0.021315 delta 113954816 113954816 total 442204160 442204160
