@@ -1,5 +1,5 @@
-RTL		:=	./add.v
-TB		+=	./test.v
+RTL		:=	./rtl/add.v
+TB		+=	./tb/test.v
 SEED	?=	$(shell date +%s)
 
 #Target:Dependency
