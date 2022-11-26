@@ -1,0 +1,23 @@
+# TCL script for DC
+######################################################################
+set hdlin_translate_off_skip_text "true"
+set verilogout_no_tri             "true"
+set default_schematic_options     "-size infinite"
+set write_name_nets_same_as_ports "true"
+######################################################################
+#
+# dc_shell Tcl startup script:
+#
+set designer "hLINUX"
+set company "www.eecourse.com"
+#some design environment variables:
+set_app_var search_path ". $search_path ./lib"
+# tc =Typical;bc = Best; wc = Worst:
+#set target_library typical.db
+#set target_library slow.db
+set_app_var target_library typical.db
+set_app_var link_library "* typical.db"
+set symbol_library tsmc090.sdb
+#-------------------------------------------------------------------------
+#Set up a work library for this design in a subdirectory:
+define_design_lib syn_ws -path ./syn_ws
